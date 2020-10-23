@@ -1,7 +1,10 @@
 <form action="{{ url_for('handle_data') }}" method="post">
     <div id="main">
-     Write your logic Expression here. </br> You can use "∧","∨","<",">","=","⇒","¬","=>","~","^","\/","/\","<=>","⇔","or","not","and"  .
+     Write your logic Expression here. </br> You can use "∧","∨","<",">","=",</br>"⇒","¬","=>","~","
+     ^","\/","/\","<=>","⇔","or","not","and"  .
      </br>There should be a space between all arguments.
+     </br>
+     Try: (q ∨ p) => ((q ∧ p) ∨ p)
      </br>
      <input type="text" name="projectFilepath">
      <input type="submit">
@@ -15,6 +18,6 @@
      display: block;
    margin-left: auto;
    margin-right: auto;
-   width: 60%;
+   width: 50%;
  }
  </style>
